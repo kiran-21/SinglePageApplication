@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <Typography variant="body1">Student Names & Student Number</Typography>
       <Typography variant="body2" sx={{ marginTop: "5px" }}>
-        © 2024 Data Visualization Project
+        © 2024 Single Page Application
       </Typography>
     </Box>
   );
