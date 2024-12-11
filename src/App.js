@@ -1,7 +1,10 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Page from './pages/Page';
+import Graphs from './pages/Graphs';
+import Home from './pages/Home';
+import Todo from './pages/Todo';
+import ContactUs from './pages/ContactUs';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,9 +13,10 @@ function App() {
       <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
-        <Route path="/graphs" element={<Page />} />
-        <Route path="/about" element={<h1>About Us</h1>} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/todo" element={<Todo/>}/>
+        <Route path="/graphs" element={<Graphs/>}/>
+        <Route path="/contact" element={<ContactUs/>}/>
       </Routes>
       <Footer />
     </Router>
