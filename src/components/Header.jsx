@@ -13,9 +13,9 @@ const Header = () => {
         <Typography
           variant="h6"
           component="div"
-          sx={{ flexGrow: 1, fontWeight: "bold" }}
+          sx={{ flexGrow: 1, fontWeight: "bold", textAlign:"left" }}
         >
-          Personalised Todo
+          SwiftList
         </Typography>
         <Box sx={{ display: "flex", gap: 2 }}>
           <Button
@@ -35,7 +35,7 @@ const Header = () => {
           <Button
             component={Link}
             to="/graphs"
-            sx={{color: "white", textTransform: "none"}}>
+            sx={{color: "white", textTransform: "capitalize"}}>
               Analysis
           </Button>
           <Button

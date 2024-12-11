@@ -8,14 +8,14 @@ const Footer = () => {
       component="footer"
       sx={{
         backgroundColor: "#24252a",
-        padding: "10px",
+        padding: "20px",
         color: "white",
         textAlign: "center",
+        borderTop: "2px solid #3e3f44",
       }}
     >
-      <Typography variant="body1">Student Names & Student Number</Typography>
-      <Typography variant="body2" sx={{ marginTop: "5px" }}>
-        © 2024 Single Page Application
+      <Typography variant="body2" sx={{ marginTop: "10px" }}>
+        © 2024 Single Page Application. All rights reserved.
       </Typography>
     </Box>
   );
