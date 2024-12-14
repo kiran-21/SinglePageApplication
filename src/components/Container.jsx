@@ -1,3 +1,10 @@
+/******************************************************************************************
+ * Project: Trends in Web Technology - Group Project
+ * File: Container.jsx
+ * Author: Pablo Maldonado
+ * Description: This component it allows to contain others components
+ ******************************************************************************************/
+
 import React from "react";
 import Box from "@mui/material/Box";
 
