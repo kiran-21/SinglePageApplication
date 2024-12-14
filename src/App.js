@@ -1,3 +1,10 @@
+
+/******************************************************************************************
+ * Project: Trends in Web Technology - Group Project
+ * File: App.js
+ * Author: Kiran Saraswathy Bhavanam Radhakrishnan
+ * Modified by: Pablo Maldonado
+ ******************************************************************************************/
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';

@@ -1,12 +1,16 @@
+/******************************************************************************************
+ * Project: Trends in Web Technology - Group Project
+ * File: Todo.jsx
+ * Author: Pablo Maldonado
+ * Description: This component it allows users to add, delete, and manage tasks, including
+ *              sorting tasks by name or priority, and marking tasks as completed.
+ ******************************************************************************************/
+
 import React, { useState, useEffect } from "react";
 import Container from "../components/Container";
 
 // Page created By: Pablo Maldonado
 const ToDo = ({ tasks, setTasks }) => {
-	// const [tasks, setTasks] = useState(() => {
-	// 	const savedTasks = localStorage.getItem("tasks");
-	// 	return savedTasks ? JSON.parse(savedTasks) : [];
-	// });
 	const [taskInput, setTaskInput] = useState("");
 	const [priority, setPriority] = useState("");
 	const [inputError, setInputError] = useState(false);
@@ -64,11 +68,6 @@ const ToDo = ({ tasks, setTasks }) => {
 	const deleteTask = id => {
 		setTasks(prevTasks => prevTasks.filter(task => task.id !== id));
 	};
-
-	// Clear completed tasks
-	// const clearCompleted = () => {
-	// 	setTasks(prevTasks => prevTasks.filter(task => !task.completed));
-	// };
 
 	return (
 		<Container>

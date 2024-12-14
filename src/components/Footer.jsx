@@ -1,3 +1,10 @@
+/******************************************************************************************
+ * Project: Trends in Web Technology - Group Project
+ * File: Footer.jsx
+ * Author: Kiran Saraswathy Bhavanam Radhakrishnan
+ * Modified by: Pablo Maldonado
+ ******************************************************************************************/
+
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
