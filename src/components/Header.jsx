@@ -23,8 +23,8 @@ const Header = () => {
 					<Button component={Link} to="/graphs" sx={{ color: "white", textTransform: "capitalize" }}>
 						Analysis
 					</Button>
-					<Button component={Link} to="/contact" sx={{ color: "white", textTransform: "none" }}>
-						Contact us
+					<Button component={Link} to="/about" sx={{ color: "white", textTransform: "none" }}>
+						About us
 					</Button>
 				</Box>
 			</Toolbar>
