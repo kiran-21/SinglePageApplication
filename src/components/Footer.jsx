@@ -21,7 +21,7 @@ const Footer = () => {
 				Group #3 <br />
 				Pablo Maldonado <br />
 				Nidhi Pansuriya <br />
-				Kiran Saraswathy <br />
+				Kiran Saraswathy Bhavanam Radhakrishnan<br />
 				Digvijay Singh
 			</Typography>
 		</Box>

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Container from "../components/Container";
 
-const ToDo = () => {
-	const [tasks, setTasks] = useState(() => {
-		const savedTasks = localStorage.getItem("tasks");
-		return savedTasks ? JSON.parse(savedTasks) : [];
-	});
+const ToDo = ({ tasks, setTasks }) => {
+	// const [tasks, setTasks] = useState(() => {
+	// 	const savedTasks = localStorage.getItem("tasks");
+	// 	return savedTasks ? JSON.parse(savedTasks) : [];
+	// });
 	const [taskInput, setTaskInput] = useState("");
 	const [priority, setPriority] = useState("");
 	const [inputError, setInputError] = useState(false);
@@ -65,9 +65,9 @@ const ToDo = () => {
 	};
 
 	// Clear completed tasks
-	const clearCompleted = () => {
-		setTasks(prevTasks => prevTasks.filter(task => !task.completed));
-	};
+	// const clearCompleted = () => {
+	// 	setTasks(prevTasks => prevTasks.filter(task => !task.completed));
+	// };
 
 	return (
 		<Container>
