@@ -19,10 +19,10 @@ const Footer = () => {
 			</Typography>
 			<Typography variant="body2" sx={{ marginTop: "10px" }}>
 				Group #3 <br />
-				Pablo Maldonado <br />
-				Nidhi Pansuriya <br />
+				Pablo Maldonado Blanche <br />
+				Nidhi Chhaganbhai Pansuriya <br />
 				Kiran Saraswathy Bhavanam Radhakrishnan<br />
-				Digvijay Singh
+				Kanwar Digvijay Singh
 			</Typography>
 		</Box>
 	);
